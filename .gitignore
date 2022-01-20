@@ -1,0 +1,20 @@
+# python library metadata
+*.egg-info/
+
+# virtualenv
+venv/
+
+# temp build file
+build/
+
+# compiled bytes code cache
+__pycache__/
+
+# git meta files
+.git/
+
+# PyCharm project
+.idea/
+
+# Temp folder
+tmp/

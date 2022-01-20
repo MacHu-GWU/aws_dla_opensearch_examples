@@ -1,0 +1,4 @@
+opensearch-py                       # official opensearch Python client
+requests_aws4auth                   # authentication for AWS Opensearch
+boto3                               # official AWS Python SDK
+rich                                # better colored printer
