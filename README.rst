@@ -1,3 +1,22 @@
+AWS Opensearch Examples
+==============================================================================
+
+.. contents::
+    :depth: 1
+    :local:
+
+Overview
+------------------------------------------------------------------------------
+This is an unofficial tutorial to boost your AWS OpenSearch (The open source version of ElasticSearch) knowledge level from ZERO to HERO.
+
+This tutorial is NOT designed for self pace learning, it is given by an experienced AWS Opensearch expert.
+
+Prerequisite:
+
+- a sandbox AWS Account to play with
+- basic Python knowledge
+
+
 Setup Development Environment
 ------------------------------------------------------------------------------
 You can do the develop from your local MAC laptop. For windows computer, some linux command may not work properly.
