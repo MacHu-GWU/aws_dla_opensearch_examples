@@ -59,3 +59,29 @@ Another easy way is to create a AWS Cloud 9 dev environment, it is a cloud IDE e
     # pip install learn_opensearch package on your local
     # you can make your code importable from virtual env
     pip install -e .
+
+4. Configure Runner to use virtualenv python.
+
+Cloud 9 top menu -> Run -> Run With -> New Runner
+
+.. code-block:: javascript
+
+    // Create a custom Cloud9 runner - similar to the Sublime build system
+    // For more information see http://docs.aws.amazon.com/console/cloud9/create-run-config
+    {
+        "cmd" : ["/home/ec2-user/environment/venv/bin/python", "$file", "$args"],
+        "info" : "Started $project_path$file_name",
+        "env" : {},
+        "selector" : "source.ext"
+    }
+
+
+Follow the Jump Start Tutorial
+------------------------------------------------------------------------------
+Read through this `tutorial <tutorial>`_, and replay those sample python scripts.
+
+
+Additional Learning Resource
+------------------------------------------------------------------------------
+
+- OpenSearch doc: https://opensearch.org/docs/latest

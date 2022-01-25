@@ -56,14 +56,14 @@ Table of Content:
             - prefix
         - aggregation
 
-3. Index Optimization
-    - Write Throughput Optimization
+3. `Index Optimization <03-Index-Optimization>`_
+    - `Write Throughput Optimization <03-Index-Optimization/01-Write-Throughput-Optimization>`_
         - Bulk
         - Parallel
         - Refresh Interval
         - Replica
         - and more ...
-    - Read Throughput Optimization
+    - `Read Throughput Optimization <03-Index-Optimization/02-Read-Throughput-Optimization>`_
         - Sharding
         - Include less field in response
     - Search Optimization
