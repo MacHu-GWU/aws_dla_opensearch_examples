@@ -115,7 +115,7 @@ Search in Big Data: Hive + HDFS Example
 
 Search in OpenSearch: Example
 ------------------------------------------------------------------------------
-**Schema**:
+**Schema**::
 
     News
     |--- id (String, id=True) # 128 bytes
