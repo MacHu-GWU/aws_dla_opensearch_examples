@@ -179,3 +179,34 @@ Search in OpenSearch: Example
     5. fetch documents
     6. ranking, ordering
     7. aggregate and return
+
+
+Full Text Search Comparison
+------------------------------------------------------------------------------
+AWS Opensearch Document
+
+{"id": 1, "content": "MLB will cancel regular season games if no union deal is struck by Monday, source says"}
+{"id": 2, "content": "Michigan basketball coach Juwan Howard suspended for the rest of the regular season, apologizes after throwing punch"}
+{"id": 3, "content": "Lebron James: Lakers star says final NBA season will be played with his son in interview with The Athletic"}
+
+RDBMS (SQL) System:
+
+1. travels from the first row to the last row. (Slow when N row is huge)
+2. check if the content contains all "token". (Slow when content is large)
+3. return those Ids.
+
+Big Data System:
+
+1. distribute query to all nodes
+2. travels from the first row to the last row. (acceptable when N row is huge)
+3. check if the content contains all "token". (Slow when content is large)
+4. return those Ids to master node.
+5. return aggregated results
+
+OpenSearch:
+
+1. distribute query to all node.
+2. for each index, fetch all Ids contains each token. In this example, there will be three Id set. (fast since it is key value access)
+3. calculate intersection. (fast)
+4. return those Ids to master node.
+5. return aggregated results

@@ -51,7 +51,6 @@ Understand the Architect
 
 .. image:: ./aws-opensearch-architect.png
 
-
 **What happens when write a Document**:
 
 1. Client Start Write Request
