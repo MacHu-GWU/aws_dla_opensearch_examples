@@ -14,7 +14,7 @@ This tutorial is NOT designed for self pace learning, it is given by an experien
 Prerequisite:
 
 - a sandbox AWS Account to play with
-- basic Python knowledge
+- basic Command Line, Python knowledge
 
 
 .. _set_up_development_environment_using_aws_cloud9:
@@ -172,12 +172,11 @@ Cloud 9 top menu -> Run -> Run With -> New Runner
     }
 
 
-Follow the Jump Start Tutorial
+3. Follow the Jump Start Tutorial
 ------------------------------------------------------------------------------
 Read through this `tutorial <tutorial>`_, and replay those sample python scripts.
 
 
-Additional Learning Resource
+4. Additional Learning Resource
 ------------------------------------------------------------------------------
-
 - OpenSearch doc: https://opensearch.org/docs/latest
