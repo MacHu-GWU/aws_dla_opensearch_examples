@@ -117,7 +117,7 @@ This tutorial shows how to securely pull and push a Private Github Repository on
 ------------------------------------------------------------------------------
 You can do the develop from your local MAC laptop. For windows computer, some linux command may not work properly.
 
-Another easy way is to create a AWS Cloud 9 dev environment, it is a cloud IDE environment on a EC2 virtual machine. It only takes a few clicks and a few minutes to create one, so you can start development from any computer. You can find a `This <set_up_development_environment_using_aws_cloud9_>`_.
+Another easy way is to create a AWS Cloud 9 dev environment, it is a cloud IDE environment on a EC2 virtual machine. It only takes a few clicks and a few minutes to create one, so you can start development from any computer. You can find a `simple AWS Cloud 9 tutorial here <https://github.com/MacHu-GWU/aws_dla_opensearch_examples#set-up-development-environment-using-aws-cloud-9>`_
 
 1. Check your current system Python and virtualenv CLI
 
@@ -165,7 +165,7 @@ Cloud 9 top menu -> Run -> Run With -> New Runner
     // Create a custom Cloud9 runner - similar to the Sublime build system
     // For more information see http://docs.aws.amazon.com/console/cloud9/create-run-config
     {
-        "cmd" : ["/home/ec2-user/environment/venv/bin/python", "$file", "$args"],
+        "cmd" : ["/home/ec2-user/environment/aws_dla_opensearch_examples/venv/bin/python", "$file", "$args"],
         "info" : "Started $project_path$file_name",
         "env" : {},
         "selector" : "source.ext"
