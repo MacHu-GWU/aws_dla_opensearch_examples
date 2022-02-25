@@ -49,28 +49,8 @@ Understand the Architect
 ------------------------------------------------------------------------------
 **Architect**:
 
-- Master Node1
-- Master Node2
-- Master Node3
+.. image:: ./aws-opensearch-architect.png
 
-- Data Node 1
-    - Index 1 - shard 1 - replica 1 (Primary 1)
-    - Index 1 - shard 2 - replica 1 (Primary 2)
-    - Index 1 - shard 3 - replica 1
-    - Index 1 - shard 4 - replica 1
-    - Index 1 - shard 5 - replica 1
-- Data Node 2
-    - Index 1 - shard 1 - replica 2
-    - Index 1 - shard 2 - replica 2
-    - Index 1 - shard 3 - replica 2 (Primary 3)
-    - Index 1 - shard 4 - replica 2 (Primary 4)
-    - Index 1 - shard 5 - replica 2
-- Data Node 3
-    - Index 1 - shard 1 - replica 3
-    - Index 1 - shard 2 - replica 3
-    - Index 1 - shard 3 - replica 3
-    - Index 1 - shard 4 - replica 3
-    - Index 1 - shard 5 - replica 3 (Primary 5)
 
 **What happens when write a Document**:
 
